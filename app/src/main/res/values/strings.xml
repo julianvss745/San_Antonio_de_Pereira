@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">San Antonio de Pereira</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="San_Antonio">San Antonio de Pereira</string>
+    <string name="sesión">Iniciar Sesión</string>
+    <string name="registrarse">registrarse</string>
+    <string name="registro">Registro</string>
+    <string name="repassword">confimar password</string>
+    <string name="registrar">Registrarse</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="correo">Email</string>
+</resources>
