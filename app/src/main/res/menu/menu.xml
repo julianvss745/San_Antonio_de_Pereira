@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mPrincipal"
+        android:title="@string/pricipal"/>
+    <item
+        android:id="@+id/mPerfil"
+        android:title="@string/miPerfil" />
+    <item
+        android:id="@+id/mHotel"
+        android:title="@string/hoteles"/>
+    <item
+        android:id="@+id/mRestaurantes"
+        android:title="@string/restaurantes"/>
+    <item
+        android:id="@+id/mBares"
+        android:title="@string/bares"/>
+
+    <item
+        android:id="@+id/mLogOut"
+        android:title="@string/cerrarSesion"/>
+
+</menu>

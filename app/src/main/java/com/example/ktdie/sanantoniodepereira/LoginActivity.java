@@ -84,10 +84,13 @@ public class LoginActivity extends AppCompatActivity {
             username = data.getExtras().getString("username");
             password = data.getExtras().getString("password");
             correo = data.getExtras().getString("correo");
+
+            // Para observar lo valores que llegan de RegistroActivity
             Log.d("nombre",data.getExtras().getString("username"));
             Log.d("password",data.getExtras().getString("password"));
             Log.d("correo",data.getExtras().getString("correo"));
         }
+
         if (requestCode == 0000 && resultCode==RESULT_CANCELED){
             Toast.makeText(this, "Proceso de login cancelado",Toast.LENGTH_SHORT).show();
         }

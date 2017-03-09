@@ -20,14 +20,12 @@
         android:gravity="center"
         android:textSize="30sp"
         android:textColor="@color/black"
-        android:textStyle="bold"
-        android:layout_margin="5dp"/>
+        android:textStyle="bold" />
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:src="@drawable/plaza"
+        android:layout_height="350dp"
+        android:src="@drawable/iglesia"
         android:layout_gravity="center"/>
 
     <EditText
@@ -56,12 +54,13 @@
        android:layout_gravity="center"/>
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="@string/registrarse"
+        android:textColor="@color/blue"
         android:id="@+id/tRegistrarse"
-        android:layout_gravity="center"/>
+        android:textAlignment="viewEnd" />
 
 </LinearLayout>
 

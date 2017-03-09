@@ -1,13 +1,40 @@
 <resources>
     <string name="app_name">San Antonio de Pereira</string>
-    <string name="username">username</string>
-    <string name="password">password</string>
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
     <string name="San_Antonio">San Antonio de Pereira</string>
     <string name="sesión">Iniciar Sesión</string>
-    <string name="registrarse">registrarse</string>
+    <string name="registrarse">Registrarse</string>
     <string name="registro">Registro</string>
-    <string name="repassword">confimar password</string>
+    <string name="repassword">Confimar contraseña</string>
     <string name="registrar">Registrarse</string>
     <string name="cancelar">Cancelar</string>
-    <string name="correo">Email</string>
+    <string name="correo">Correo electronico</string>
+    <string name="miPerfil">Mi Perfil</string>
+    <string name="cerrarSesion">Cerrar Sesión</string>
+    <string name="historia">San Antonio de Pereira, un corregimiento del municipio de Río Negro, donde los amantes de la comida tienen un espacio en Antioquia</string>
+    <string name="pricipal">Principal</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hotelUno">Hotel Movich Las Lomas</string>
+    <string name="hotelDos">Rio Verde Living Suites</string>
+    <string name="hotelTres">Casa Grande</string>
+    <string name="title_activity_hotel">HotelActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="hoteles">Hoteles</string>
+    <string name="restaurantes">Restaurantes</string>
+    <string name="bares">Bares y Discotecas</string>
+    <string name="disco_1">Discoteca 1</string>
+    <string name="disco_2">Discoteca 2</string>
+    <string name="disco_3">Discoteca 3</string>
+    <string name="title_activity_restaurante">RestauranteActivity</string>
+    <string name="RestauranteUno">Dulce Contigo</string>
+    <string name="RestauranteDos">MulataCriolla Parrilla Bar</string>
+    <string name="RestauranteTres">El Patio de San Antonio</string>
+    <string name="title_activity_discotecas">DiscotecasActivity</string>
+    <string name="DiscoUno">Discoteca View</string>
+    <string name="DiscoDos">Discoteca Gluck</string>
+    <string name="DiscoTres">Fonda La Escena</string>
 </resources>

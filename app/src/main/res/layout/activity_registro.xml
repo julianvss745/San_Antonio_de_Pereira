@@ -21,9 +21,9 @@
         android:gravity="center"/>
 
     <ImageView
-        android:layout_width="wrap_content"
+        android:layout_width="240dp"
         android:layout_height="wrap_content"
-        android:layout_weight="5"
+        android:layout_weight="3.57"
         android:src="@drawable/estatua"
         android:layout_gravity="center"/>
 
@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:hint="@string/username"
-        android:id="@+id/eRusuario"
+        android:id="@+id/eRUsuario"
         android:gravity="center"/>
 
     <EditText
@@ -41,7 +41,7 @@
         android:layout_weight="1"
         android:hint="@string/password"
         android:inputType="textPassword"
-        android:id="@+id/eRpassword"
+        android:id="@+id/eRPassword"
         android:gravity="center"/>
 
     <EditText
@@ -50,7 +50,7 @@
         android:layout_weight="1"
         android:hint="@string/repassword"
         android:inputType="textPassword"
-        android:id="@+id/eRrepassword"
+        android:id="@+id/eRRepPassword"
         android:gravity="center"/>
 
     <EditText
@@ -58,7 +58,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:hint="@string/correo"
-        android:id="@+id/eRcorreo"
+        android:id="@+id/eRCorreo"
         android:gravity="center"/>
 
 
@@ -74,8 +74,8 @@
            android:layout_weight="1"
            android:text="@string/registrar"
            android:id="@+id/bRregistrarse"
-           android:layout_marginLeft="30dp"
-           android:layout_marginRight="40dp"/>
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="30dp"/>
 
        <Button
            android:layout_width="wrap_content"
@@ -83,8 +83,8 @@
            android:layout_weight="1"
            android:text="@string/cancelar"
            android:id="@+id/bRcancelar"
-           android:layout_marginLeft="30dp"
-           android:layout_marginRight="30dp"/>
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"/>
 
    </LinearLayout>
 
