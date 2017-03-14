@@ -13,10 +13,30 @@
         android:text="@string/hotelUno"
         android:textAlignment="center"
         android:textSize="24sp"
-        android:textStyle="normal|italic" />
+        android:textStyle="normal|italic"
+        android:textColor="@color/black"/>
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/hotel_1"/>
+        android:src="@drawable/hotel_1"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hotelUnoInfo"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:textAlignment="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hotelUnoTel"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hotelUnoPrecio"
+        android:textColor="@color/black"/>
+
 </LinearLayout>

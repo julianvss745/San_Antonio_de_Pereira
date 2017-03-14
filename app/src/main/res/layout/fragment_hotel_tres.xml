@@ -10,13 +10,31 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/hotelTres"
+        android:textColor="@color/black"
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="normal|italic" />
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="320dp"
         android:src="@drawable/hotel_3"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hotelTresInfo"
+        android:textColor="@color/black"
+        android:layout_margin="4dp"
+        android:textAlignment="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hotelTresTel"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hotelTresPrecio"
+        android:textColor="@color/black"/>
 
 </LinearLayout>

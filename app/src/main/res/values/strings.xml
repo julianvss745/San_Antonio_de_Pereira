@@ -20,7 +20,7 @@
     <string name="hotelUno">Hotel Movich Las Lomas</string>
     <string name="hotelDos">Rio Verde Living Suites</string>
     <string name="hotelTres">Casa Grande</string>
-    <string name="title_activity_hotel">HotelActivity</string>
+    <string name="title_activity_hotel">Hoteles</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="hoteles">Hoteles</string>
@@ -29,12 +29,32 @@
     <string name="disco_1">Discoteca 1</string>
     <string name="disco_2">Discoteca 2</string>
     <string name="disco_3">Discoteca 3</string>
-    <string name="title_activity_restaurante">RestauranteActivity</string>
+    <string name="title_activity_restaurante">Restaurantes</string>
     <string name="RestauranteUno">Dulce Contigo</string>
-    <string name="RestauranteDos">MulataCriolla Parrilla Bar</string>
+    <string name="RestauranteDos">Mulata Criolla Parrilla Bar</string>
     <string name="RestauranteTres">El Patio de San Antonio</string>
-    <string name="title_activity_discotecas">DiscotecasActivity</string>
+    <string name="title_activity_discotecas">Bares y Discotecas</string>
     <string name="DiscoUno">Discoteca View</string>
     <string name="DiscoDos">Discoteca Gluck</string>
     <string name="DiscoTres">Fonda La Escena</string>
+    <string name="hotelUnoInfo">Ubicado en un hermoso jardín paisajístico, ofrece suites de lujo a 5 minutos en automovil del aeropuerto internacional José María Córdoba. Dispone de instalaciones de ocio como pista de tenis, piscina climatizada y un moderno gimnasio.</string>
+    <string name="hotelUnoTel">Teléfono: +57 4 5360440</string>
+    <string name="hotelUnoPrecio">Precio promedio por noche COP 254,150</string>
+    <string name="hotelDosInfo">El Rio Verde Living Suites se encuentra en Rionegro, a 35 km de Medellín, KM 1 Via aeropuerot - Llano Grande, y dispone de solárium y sauna.</string>
+    <string name="hotelDosPrecio">Precio promedio por noche COP 204,000</string>
+    <string name="hotelDosTel">Teléfono:+57 4 2689516</string>
+    <string name="hotelTresTel">Teléfono:+57 4 5614796</string>
+    <string name="hotelTresInfo">El Casagrande Hotel ofrece una piscina al aire libre abierta todo el año y se encuentra en Rionegro. El establecimiento, situado a 21 km de Medellín, proporciona WiFi gratuita en todas las instalaciones y aparcamiento privado gratuito.</string>
+    <string name="hotelTresPrecio">Precio promedio por noche COP 154,000</string>
+    <string name="DiscoUnoInfo">Discoteca - Bar VIEW, la más moderna Discoteca del Oriente Antioqueño, ubicada en San Antonio de Pereira. Con un diseño exclusivo, único e innovador llegamos a brindar en cada uno de tus días la mejor experiencia. Somos el mejor concepto en rumba</string>
+    <string name="DiscoDosInfo">Un gran ambiente lounge, la mejor musica y una amplia oferta de licores (shots, cocteles, cervezas, vinos, licores nacionales y extranjeros). Ven y pasa grandes momentos en tu nueva casa, Glück Lounge. Te esperamos!!!</string>
+    <string name="DiscoTresInfo">Somos una discoteca crossover con sabor costeño y unico en la region ven y visitanos PACURRAMBA</string>
+    <string name="RestauranteUnoInfo">Años de tradición en la fabricación de deliciosos postres, reconocidos internacionalmente, nuestra empresa es un referente en San Antonio de Pereira</string>
+    <string name="RestauranteDosInfo">Tesoro de sabiduría popular, ingenio culinario y sabor local. Milenaria tradición indígena, recuerdos de infancia; están ligados por lo general a los aromas, sabores, texturas y colores; testimonio de un valioso legado ancestral un agradecido homenaje a los frutos de nuestra tierra y un sello inconfundible de la identidad colombiana en su rica variedad</string>
+    <string name="RestauranteTresInfo">Un sitio distinto en San Antonio de Pereira - Rionegro, familiar, buena comida, buena música, alternativa de diferentes ambientes, acogedor, buenos precios. Ideal para celebraciones, reuniones familiares y fechas especiales.</string>
+    <string name="title_activity_navegation_drawer">NavegationDrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
 </resources>

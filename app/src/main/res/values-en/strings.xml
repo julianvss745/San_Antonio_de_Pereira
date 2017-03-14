@@ -13,7 +13,7 @@
     <string name="correo">Email</string>
     <string name="miPerfil">My Profile</string>
     <string name="cerrarSesion">Log Out</string>
-    <string name="historia">San Antonio de Pereira, un corregimiento del municipio de Río Negro, donde los amantes de la comida tienen un espacio en Antioquia</string>
+    <string name="historia">San Antonio de Pereira, a small town in the municipality of Rionegro, where food lovers have a space in Antioquia</string>
     <string name="pricipal">Principal</string>
 
     <!-- TODO: Remove or change this placeholder text -->
@@ -38,4 +38,20 @@
     <string name="DiscoUno">View</string>
     <string name="DiscoDos">Gluck Lounge</string>
     <string name="DiscoTres">Fonda La Escena</string>
+    <string name="hotelUnoInfo">Set in beautiful landscaped gardens, it offers luxurious suites 5 minutes away by car from José María Córdoba International Airport. Leisure facilities include a tennis court, heated swimming pool and a modern gym.</string>
+    <string name="hotelUnoTel">Phone number: +57 4 5360440</string>
+    <string name="hotelUnoPrecio">Average price: COP 254,150 </string>
+    <string name="hotelDosInfo">The Rio Verde Living Suites is located in Rionegro, 35 km from Medellín, KM 1 Via aeropuerot - Llano Grande, and has a solarium and sauna.</string>
+    <string name="hotelDosPrecio">Average price: COP 204,000</string>
+    <string name="hotelDosTel">Phone number:+57 4 2689516</string>
+    <string name="hotelTresTel">Phone number:+57 4 5614796</string>
+    <string name="hotelTresInfo">Casagrande Hotel offers an outdoor pool open all year round in Rionegro. Located 21 km from Medellin, the property offers free Wi-Fi throughout and free private parking.</string>
+    <string name="hotelTresPrecio">Average price: COP 154,000</string>
+    <string name="DiscoUnoInfo">Nigth club VIEW, The most modern Discoteca del Oriente Antioqueño, located in San Antonio de Pereira. With an exclusive, unique and innovative design, we offer you the best experience in each of your days. We are the best party concept</string>
+    <string name="DiscoDosInfo">A great lounge atmosphere, the best music and a wide range of liquors (shots, cocktails, beers, wines, national and foreign liquors). Come and have a great time in your new home, Glück Lounge. We will wait for you!!!</string>
+    <string name="DiscoTresInfo">We are a crossover disco with coastal flavor and unique in the region come and visit us PACURRAMBA</string>
+    <string name="RestauranteUnoInfo">Years of tradition in the manufacture of delicious desserts, internationally recognized, our company is a benchmark in San Antonio de Pereira</string>
+    <string name="RestauranteDosInfo">Treasure of popular wisdom, culinary genius and local flavor. Millennial indigenous tradition, childhood memories; Are usually linked to aromas, flavors, textures and colors; Testimony of a valuable ancestral legacy a grateful tribute to the fruits of our land and an unmistakable stamp of the Colombian identity in its rich variety</string>
+    <string name="RestauranteTresInfo">A different place in San Antonio de Pereira - Rionegro, family, good food, good music, alternative of different atmospheres, cozy, good prices. Ideal for celebrations, family reunions and special dates.</string>
+
 </resources>

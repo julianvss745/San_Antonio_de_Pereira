@@ -11,14 +11,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/RestauranteUno"
+        android:textColor="@color/black"
         android:textAlignment="center"
         android:textSize="24sp"
-        android:textStyle="normal|italic" />
+        android:textStyle="normal|italic"
+        android:layout_margin="5dp"/>
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="350dp"
         android:src="@drawable/rest_1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/RestauranteUnoInfo"
+        android:textColor="@color/black"
+        android:layout_margin="8dp"
+        android:textAlignment="center" />
 
 </LinearLayout>
 

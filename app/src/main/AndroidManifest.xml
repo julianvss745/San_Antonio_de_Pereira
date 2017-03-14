@@ -16,6 +16,7 @@
             android:name=".RegistroActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".PerfilActivity" />
+
         <activity
             android:name=".SplashActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
@@ -25,6 +26,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".DemoActivity" />
         <activity
             android:name=".HotelActivity"
@@ -37,7 +39,16 @@
         <activity
             android:name=".DiscotecasActivity"
             android:label="@string/title_activity_discotecas"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".DemoViewActivity">
+        </activity>
+
+        <activity
+            android:name=".NavegationDrawerActivity"
+            android:label="@string/title_activity_navegation_drawer"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
     </application>
 
 </manifest>
