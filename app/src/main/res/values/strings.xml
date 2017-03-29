@@ -56,5 +56,8 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_hotel_drawer">HotelDrawerActivity</string>
+    <string name="title_activity_restaurante_drawer">RestauranteDrawerActivity</string>
+    <string name="title_activity_discoteca_drawer">DiscotecaDrawerActivity</string>
 
 </resources>

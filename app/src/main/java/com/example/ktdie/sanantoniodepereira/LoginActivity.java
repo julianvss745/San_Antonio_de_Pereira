@@ -52,7 +52,7 @@ public class LoginActivity extends AppCompatActivity {
                     else {
                         //validar que el usuario y contrasña sean iguales a los recibidos
 
-                        Intent intent= new Intent(LoginActivity.this, MainActivity.class);
+                        Intent intent= new Intent(LoginActivity.this, NavegationDrawerActivity.class);
 
                         //validar que el usuario y contrasña sean iguales a los recibidos
                         intent.putExtra("username", username);

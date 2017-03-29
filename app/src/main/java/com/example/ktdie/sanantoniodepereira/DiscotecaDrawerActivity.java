@@ -1,9 +1,16 @@
 package com.example.ktdie.sanantoniodepereira;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.design.widget.TabLayout;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.app.FragmentStatePagerAdapter;
+import android.support.v4.view.PagerAdapter;
+import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -15,8 +22,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-public class NavegationDrawerActivity extends AppCompatActivity
+public class DiscotecaDrawerActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+   private SectionsPagerAdapter mSectionsPagerAdapter;
+
+    private ViewPager mViewPager;
 
     String username, correo;
     TextView tUsername, tCorreo;
@@ -25,10 +36,20 @@ public class NavegationDrawerActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_navegation_drawer);
-
+        setContentView(R.layout.activity_discoteca_drawer);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+       // Create the adapter that will return a fragment for each of the three
+        // primary sections of the activity.
+        mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
+
+        // Set up the ViewPager with the sections adapter.
+        mViewPager = (ViewPager) findViewById(R.id.container);
+        mViewPager.setAdapter(mSectionsPagerAdapter);
+
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
+        tabLayout.setupWithViewPager(mViewPager);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -44,7 +65,6 @@ public class NavegationDrawerActivity extends AppCompatActivity
         tCorreo=(TextView) hView.findViewById(R.id.tCorreo);
 
         Bundle extras = getIntent().getExtras();
-
         tUsername.setText(extras.getString("username"));
         tCorreo.setText(extras.getString("correo"));
 
@@ -67,7 +87,7 @@ public class NavegationDrawerActivity extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.navegation_drawer, menu);
+        getMenuInflater().inflate(R.menu.discoteca_drawer, menu);
         return true;
     }
 
@@ -80,14 +100,14 @@ public class NavegationDrawerActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-
-            intent = new Intent(NavegationDrawerActivity.this, DemoViewActivity.class);
+            intent = new Intent(DiscotecaDrawerActivity.this, DemoViewActivity.class);
             intent.putExtra("username", username);
             intent.putExtra("correo", correo);
             startActivity(intent);
+            return true;
         }
 
-        return true;
+        return super.onOptionsItemSelected(item);
     }
 
     @SuppressWarnings("StatementWithEmptyBody")
@@ -99,11 +119,16 @@ public class NavegationDrawerActivity extends AppCompatActivity
         if (id == R.id.nav_principal) {
             //Principal
             // Navegacion entre actividades
+            intent = new Intent(DiscotecaDrawerActivity.this, NavegationDrawerActivity.class);
+            intent.putExtra("username", username);
+            intent.putExtra("correo", correo);
+            startActivity(intent);
+            finish();
 
         } else if (id == R.id.nav_hotel) {
             //Hoteles
             // Navegacion entre actividades
-            intent = new Intent(NavegationDrawerActivity.this, HotelDrawerActivity.class);
+            intent = new Intent(DiscotecaDrawerActivity.this, HotelDrawerActivity.class);
             intent.putExtra("username", username);
             intent.putExtra("correo", correo);
             startActivity(intent);
@@ -112,7 +137,7 @@ public class NavegationDrawerActivity extends AppCompatActivity
         } else if (id == R.id.nav_restaurante) {
             //Restaurantes
             //Navegacion entre actividades
-            intent = new Intent(NavegationDrawerActivity.this, RestauranteDrawerActivity.class);
+            intent = new Intent(DiscotecaDrawerActivity.this, RestauranteDrawerActivity.class);
             intent.putExtra("username", username);
             intent.putExtra("correo", correo);
             startActivity(intent);
@@ -121,17 +146,11 @@ public class NavegationDrawerActivity extends AppCompatActivity
         } else if (id == R.id.nav_bar) {
             //Discotecas
             // Navegacion entre actividades
-            intent = new Intent(NavegationDrawerActivity.this, DiscotecaDrawerActivity.class);
-            intent.putExtra("username", username);
-            intent.putExtra("correo", correo);
-            startActivity(intent);
-            finish();
-
 
         } else if (id == R.id.nav_cerrar_sesion) {
             // Cerrar sesión
             // Navegacion entre actividades
-            intent = new Intent(NavegationDrawerActivity.this, LoginActivity.class);
+            intent = new Intent(DiscotecaDrawerActivity.this, LoginActivity.class);
             startActivity(intent);
             finish();
         }
@@ -139,5 +158,60 @@ public class NavegationDrawerActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    /**
+     * ATTENTION: This was auto-generated to implement the App Indexing API.
+     * See https://g.co/AppIndexing/AndroidStudio for more information.
+     */
+
+
+   public class SectionsPagerAdapter extends FragmentPagerAdapter {
+
+        public SectionsPagerAdapter(FragmentManager fm) {
+            super(fm);
+        }
+
+        @Override
+        public Fragment getItem(int position) {
+            // getItem is called to instantiate the fragment for the given page.
+            // Return a PlaceholderFragment (defined as a static inner class below).
+
+            switch (position) {
+                case 0:
+                    DiscotecaUnoFragment tab1 = new DiscotecaUnoFragment();
+                    return tab1;
+
+                case 1:
+                    DiscotecaDosFragment tab2 = new DiscotecaDosFragment();
+                    return tab2;
+
+                case 2:
+                    DiscotecaTresFragment tab3 = new DiscotecaTresFragment ();
+                    return tab3;
+
+                default:
+                    return null;
+            }
+        }
+
+        @Override
+        public int getCount() {
+            // Show 3 total pages.
+            return 3;
+        }
+
+        @Override
+        public CharSequence getPageTitle(int position) {
+            switch (position) {
+                case 0:
+                    return "Discoteca 1";
+                case 1:
+                    return "Discoteca 2";
+                case 2:
+                    return "Discoteca 3";
+            }
+            return null;
+        }
     }
 }

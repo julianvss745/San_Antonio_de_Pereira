@@ -17,12 +17,18 @@ import android.widget.Toast;
 
 public class DemoViewActivity extends AppCompatActivity {
 
-    //String[] sitios = new String[] {"Panaca","Decameron", "Parque del cafe"};
-
     Lista_Entrada[] datos = new Lista_Entrada[]{
-            new Lista_Entrada(R.drawable.hotel_1, 240, "Hotel Movich", "Mera chimba de hotel"),
-            new Lista_Entrada(R.drawable.hotel_2, 204, "Hotel Rio Verde", "Tambine mera chimba de hotel"),
-            new Lista_Entrada(R.drawable.hotel_3, 195, "Casa Grande", "Este tampoc se queda atras"),
+            new Lista_Entrada(R.drawable.hotel_1, "$240,000", "Hotel Movich", "Hotel 5 estrellas"),
+            new Lista_Entrada(R.drawable.hotel_2, "$204,000", "Hotel Rio Verde", "Hotel 5 estrellas"),
+            new Lista_Entrada(R.drawable.hotel_3, "$195,000", "Casa Grande", "Hotel 4 estrellas"),
+
+            new Lista_Entrada(R.drawable.rest_1, "$2,500", "Dulce Contigo", "Plato recomendado: Postres "),
+            new Lista_Entrada(R.drawable.rest_2, "$23,000", "Mulata Criolla Parrilla Bar", "Plato recomendado: Costillas BBQ"),
+            new Lista_Entrada(R.drawable.rest_3, "$19,500", "El Patio de San Antonio", "Este tampoc se queda atras"),
+
+            new Lista_Entrada(R.drawable.disco_1, "$15,000", "Discoteca View", "Musica urbana"),
+            new Lista_Entrada(R.drawable.disco_2, "$15,000", "Discoteca Gluck", "Musica urbana"),
+            new Lista_Entrada(R.drawable.disco_3, "$10,000", "Fonda la Escena", "Musica parrandera"),
     };
     ListView lista;
 
@@ -30,8 +36,6 @@ public class DemoViewActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_demo_view);
-
-       // ArrayAdapter<String> adapter= new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,sitios);
 
         Adapter adapter = new Adapter(this, datos);
 

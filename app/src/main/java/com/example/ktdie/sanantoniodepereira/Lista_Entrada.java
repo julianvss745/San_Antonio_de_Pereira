@@ -1,14 +1,10 @@
 package com.example.ktdie.sanantoniodepereira;
 
-/**
- * Created by ktdie on 13/03/2017.
- */
-
 public class Lista_Entrada {
-    private int idImagen,precio;
-    private String nombre, descripcion;
+    private int idImagen;
+    private String nombre, descripcion,precio;
 
-    public Lista_Entrada(int idImagen, int precio, String nombre, String descripcion) {
+    public Lista_Entrada(int idImagen, String precio, String nombre, String descripcion) {
         this.idImagen = idImagen;
         this.precio = precio;
         this.nombre = nombre;
@@ -23,11 +19,11 @@ public class Lista_Entrada {
         this.idImagen = idImagen;
     }
 
-    public int getPrecio() {
+    public String getPrecio() {
         return precio;
     }
 
-    public void setPrecio(int precio) {
+    public void setPrecio(String precio) {
         this.precio = precio;
     }
 
