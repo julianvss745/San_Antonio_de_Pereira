@@ -52,7 +52,7 @@
     <string name="RestauranteUnoInfo">Años de tradición en la fabricación de deliciosos postres, reconocidos internacionalmente, nuestra empresa es un referente en San Antonio de Pereira</string>
     <string name="RestauranteDosInfo">Tesoro de sabiduría popular, ingenio culinario y sabor local. Milenaria tradición indígena, recuerdos de infancia; están ligados por lo general a los aromas, sabores, texturas y colores; testimonio de un valioso legado ancestral un agradecido homenaje a los frutos de nuestra tierra y un sello inconfundible de la identidad colombiana en su rica variedad</string>
     <string name="RestauranteTresInfo">Un sitio distinto en San Antonio de Pereira - Rionegro, familiar, buena comida, buena música, alternativa de diferentes ambientes, acogedor, buenos precios. Ideal para celebraciones, reuniones familiares y fechas especiales.</string>
-    <string name="title_activity_navegation_drawer">NavegationDrawerActivity</string>
+
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
