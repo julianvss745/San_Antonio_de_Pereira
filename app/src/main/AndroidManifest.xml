@@ -2,6 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.ktdie.sanantoniodepereira">
 
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -14,6 +21,7 @@
         <activity
             android:name=".RegistroActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
         <activity
             android:name=".SplashActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
@@ -22,25 +30,87 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
-        <activity android:name=".DemoActivity" />
-        <activity android:name=".DemoViewActivity" />
+
+        <activity
+            android:name=".DemoActivity" />
+
+        <activity
+            android:name=".ListViewMain" />
+
         <activity
             android:name=".NavegationDrawerActivity"
-            android:label="@string/title_activity_navegation_drawer"
+            android:label="@string/San_Antonio"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".HotelDrawerActivity"
-            android:label="@string/title_activity_hotel_drawer"
+            android:label="@string/San_Antonio"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".RestauranteDrawerActivity"
-            android:label="@string/title_activity_restaurante_drawer"
+            android:label="@string/San_Antonio"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".DiscotecaDrawerActivity"
-            android:label="@string/title_activity_discoteca_drawer"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:label="@string/San_Antonio"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapHotel1Activity"
+            android:label="@string/title_activity_map_hotel1">
+        </activity>
+
+        <activity
+            android:name=".MapHotel2Activity"
+            android:label="@string/title_activity_map_hotel1">
+        </activity>
+
+        <activity
+            android:name=".MapHotel3Activity"
+            android:label="@string/title_activity_map_hotel1">
+        </activity>
+
+        <activity
+            android:name=".MapRestaurante1Activity"
+            android:label="@string/title_activity_map_hotel1">
+        </activity>
+
+        <activity
+            android:name=".MapRestaurante2Activity"
+            android:label="@string/title_activity_map_hotel1">
+        </activity>
+
+        <activity
+            android:name=".MapRestaurante3Activity"
+            android:label="@string/title_activity_map_hotel1">
+        </activity>
+
+        <activity
+            android:name=".MapDiscoteca1Activity"
+            android:label="@string/title_activity_map_hotel1">
+        </activity>
+
+        <activity
+            android:name=".MapDiscoteca2Activity"
+            android:label="@string/title_activity_map_hotel1">
+        </activity>
+
+        <activity
+            android:name=".MapDiscoteca3Activity"
+            android:label="@string/title_activity_map_hotel1">
+        </activity>
     </application>
 
 </manifest>
